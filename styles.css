@@ -1,0 +1,218 @@
+
+                                                               /*All Styles*/
+
+p, a, h1, h2, h3 {
+    color: red;
+    font-family: arial;
+}
+
+ul {
+    list-style: none;
+}
+
+body {
+    margin: 0;
+    padding-top: 149px; /* to prevent content being hidden under fixed header */
+
+}
+
+/*header*/
+
+.nav-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+header{
+    background-color: black;
+    text-align: center;
+
+}
+
+header h1{
+    color: yellow;
+    border: 6px dashed yellow;
+    padding: 6px 12px;
+    display: inline-block;
+}
+
+/* navigation */
+
+.main-nav{
+    text-align: center;
+    background-color: darkgray;
+    padding: 10px;
+}
+
+.main-nav ul li a{
+    text-decoration: none;
+}
+
+.main-nav ul li a {
+    font-size: 1.5rem;  /* makes it bigger like an <h2> */
+    font-weight: bold;
+    display: inline-block;
+}
+
+.main-nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+    white-space: nowrap;
+    max-width: 1200px;
+}
+
+.main-nav li {
+    display: inline-block;
+    width: 33.33%; /* 3 items evenly across */
+    text-align: center; /* centers the text inside each li */
+}
+
+/* banner */
+
+.banner{
+    position: relative;
+    text-align: center;
+    background-color: #1A1A1A;
+}
+
+.banner img{
+    max-width: 100%;
+    margin-bottom: -4px;
+}
+
+.banner .welcome{
+    background-color: rgba(0, 0, 0, 0.75);
+    color: yellow;
+    padding: 30px;
+    position: absolute;
+    left: 0;
+    top: 30%;
+    border-radius: 36px;
+}
+
+.banner h2{
+    font-size: 74px;
+}
+
+.banner h2 span{
+    font-size:1.3em;
+    
+}
+
+/* images */
+
+.images{
+    text-align: center;
+    white-space: nowrap;
+    padding: 0px;
+}
+
+.images li{
+    display: inline-block;
+    width: 40%;
+    margin: 40px 5%;
+}
+
+.images li img{
+  display: inline-block;
+  width: 100%;     /* each image takes half the row */
+  height: auto;   /* keeps aspect ratio */
+  border-radius: 999px;
+}
+
+.images li:hover{
+    position: relative;
+    top: -4px;
+}
+
+/* main */
+
+main{
+    background: linear-gradient(to bottom, #A9C4D8, #EAF5FB);
+    margin-bottom: -16px;
+    margin-top: -17px;
+}
+
+/* footer */
+
+form input{
+    margin: 20px;
+    padding: 10px 20px;
+    font-size: 24px;
+    border-radius: 28px;
+    border: 4px solid white;
+}
+
+.form-container {
+    text-align: center;
+    background-color: darkgray;
+    padding: 10px;
+    padding-bottom: 35px;
+}
+
+form input:focus{
+    border: 4px dashed #4b4b4b;
+    outline:  none;
+}
+
+form input:valid{
+    border: 4px solid #71d300;
+}
+
+footer p{
+    text-align: center;
+    background-color: black;
+    color: yellow;
+    margin: 0;
+    padding: 10px;
+}
+
+
+/*Contact*/
+
+/* Weapons */
+
+.item p {
+  display: inline-block;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: 18px;
+}
+
+.Grenadiers, .Shotguns, .Pistols, .SMGs, .ARs, .LMGs, .Snipers {
+  text-align: left;
+  width: 75%;
+}
+
+.rank {
+  text-align: right;
+  width: 25%;
+}
+
+.weapons-background {
+    background-image: url(img/TF2_Achievement_Jack_of_All_Trades.png);
+    background-repeat: no-repeat;      /* prevents tiling */
+    background-size: cover;           /* fills container, cropping if necessary */
+    background-position: center;      /* keeps it centered */
+}
+
+.weapons-menu {
+    width: 80%;
+    background-color: burlywood;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    max-width: 500px;
+    border: solid darkblue;
+    border-width: 10px;
+    border-style: dashed; /* the style of the border can be solid, dotted, dashed, double, groove, ridge, inset, or outset */
+    border-radius: 100px;
+}
+
+main div section h2 {
+    text-align: center;
+}
